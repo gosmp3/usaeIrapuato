@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  a img {
+    width: 5em;
+  }
+
+  header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
