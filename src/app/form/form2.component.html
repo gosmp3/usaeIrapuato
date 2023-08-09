@@ -1356,11 +1356,10 @@
   </button>
 </div>
 
-
-
-<div id="botonEstaticoRegresar" *ngIf="modificarRegistro">
+<div id="botonEstaticoRegresar" *ngIf="modificarRegistro" style="position: fixed; left: 2px; top: 420px;">
   <button (click)="cerrarModoEdicion();" data-bs-toggle="tooltip" data-bs-placement="top"
-    title="Haz clic para salir del modo edición">
+    title="Haz clic para salir del modo edición" style="pointer-events: none;">
     <img id="iconoDocumento" src="./../../assets/images/icons/flechaRegresar.png" alt="Icono de documento">
   </button>
 </div>
+
